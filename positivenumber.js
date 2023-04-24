@@ -1,13 +1,11 @@
 let number=0
-let b=25
-let c=b;
+let b=-25
 if(b>number){
     for(let i=0;i<=2;i++){
-        c=c+2;
-    console.log(c)
+        b=b+2;
+    console.log(b)
     
 }
-
 }else{
     console.log("please enter a positive number")
 }
